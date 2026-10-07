@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voice MCP Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎙️ Voice MCP Assistant</h1>
+
+        <p class="subtitle">
+            Speak to an AI assistant connected to an MCP server
+        </p>
+
+
+        <div class="voice-circle" id="voiceCircle">
+            🎤
+        </div>
+
+
+        <button id="startBtn">
+            Start Speaking
+        </button>
+
+
+        <div class="box">
+
+            <h3>You said</h3>
+
+            <p id="userText">
+                Click the button and speak...
+            </p>
+
+        </div>
+
+
+        <div class="box">
+
+            <h3>MCP Response</h3>
+
+            <p id="response">
+                Waiting for request...
+            </p>
+
+        </div>
+
+
+        <div class="tools">
+
+            <h3>MCP Tools</h3>
+
+            <div class="tool">
+                🔧 get_company_info
+            </div>
+
+            <div class="tool">
+                🔧 get_product_price
+            </div>
+
+            <div class="tool">
+                🔧 check_stock
+            </div>
+
+            <div class="tool">
+                🔧 calculate_total
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
