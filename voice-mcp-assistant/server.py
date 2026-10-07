@@ -114,3 +114,5 @@ def calculate_total(price: float, quantity: int) -> dict:
 if __name__ == "__main__":
     mcp.run(transport="stdio")
     
+    #added this comment to check git push
+    
